@@ -10,7 +10,7 @@
 
 
     .header--logo {
-        font-size: 2rem;
+        font-size: 2rem; 
         color: blue;
         text-transform: uppercase;
         font-weight: bold;
@@ -39,6 +39,10 @@
             .selected--link {
                 color: #1090CB;
             }
+        }
+
+        @media screen and (max-width: 650px) {
+            display: none;            
         }
     }
 }

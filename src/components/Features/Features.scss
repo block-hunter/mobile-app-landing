@@ -1,0 +1,59 @@
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width: 80vw;
+    margin: 0 auto;
+
+    .features--box {
+        width: 23%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+
+        .color-box {
+            background-color: #EFEAFF;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            padding: 20px;
+            border-radius: 20px;
+
+            .features--img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        .website {
+            background-color: #EFEAFF;
+        }
+
+        .seo {
+            background-color: #ECFFDA;
+        }
+
+        .vr {
+            background-color: #DAE6FF;
+        }
+
+        .mobile {
+            background-color: #FFE5DA;
+        }
+
+        div {
+
+            h1 {
+                font-size: 1.1rem;
+            }
+
+            p {
+                font-weight: 300;
+                font-size: 1rem;
+            }
+        }
+    }
+}

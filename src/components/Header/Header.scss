@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    z-index: 10;
+
+
+    .header--logo {
+        font-size: 2rem;
+        color: blue;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .header--nav {
+        width: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 50%;
+
+            a {
+                color: black;
+                text-decoration: none;
+                font-size: 1rem;                
+                font-weight: 400;
+            }
+
+            .selected--link {
+                color: #1090CB;
+            }
+        }
+    }
+}
+
+.btn {
+    padding: 12px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #1090cb;
+    background-color: white;
+}
+
+.btn--blue {
+    background-color: #1090CB;
+    color: white;
+}
